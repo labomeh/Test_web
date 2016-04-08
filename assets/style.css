@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'upheaval';
-    src: url('./Upheaval.fon'),
-         url('./upheavtt.ttf');
-}
-
 @font-face
 {
   font-family: 'batman';
@@ -12,7 +6,7 @@
 
 body
 {
-  background-color:black;
+  background-image:url("../assets/fond.png");
 }
 header
 {
@@ -39,33 +33,73 @@ header h1
   font-family: batman;
 }
 
-aside
+nav
 {
-  position:absolute;
-  background-color:lightgrey;
+  position: absolute;
+  right:0;
   left:0;
   top:40px;
-  bottom:0;
-  width: 150px;
+  height:15px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+  background: #a90329; /* Old browsers */
+  background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+  border-top:ridge black 2px;
+  border-bottom:ridge black 2px;
 }
 
-aside nav ul
+nav ul.menu
+{
+  position:relative;
+  bottom:17px;
+  left:-20px;
+}
+
+nav ul.menu li
 {
   display:inline;
-  position:relative;
-  left: 38px;
-  bottom:20px;
-}
+  padding:0 4px 15px 4px;
+  border:ridge black 2px;
+  border-radius:0 0 90px 90px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c40431+0,b1032c+44,9a0024+100 */
+  background: #c40431; /* Old browsers */
+  background: -moz-linear-gradient(top,  #c40431 0%, #b1032c 44%, #9a0024 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #c40431 0%,#b1032c 44%,#9a0024 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #c40431 0%,#b1032c 44%,#9a0024 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c40431', endColorstr='#9a0024',GradientType=0 ); /* IE6-9 */
 
-aside nav ul li
-{
-  list-style-type:none;
-  
 }
-
-aside nav ul li a:link
+nav ul.menu li a:link,nav ul.menu a:visited
 {
   color:black;
   text-decoration:none;
-  font-family:upheaval;
+  font-variant:all-small-caps;
+  padding:0 4px 20px 4px;
+  border-radius:0 0 90px 90px;
+}
+nav ul.menu li:hover
+{
+  padding-bottom:20px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#da0436+0,c50330+44,aa0028+100 */
+  background: #da0436; /* Old browsers */
+  background: -moz-linear-gradient(top,  #da0436 0%, #c50330 44%, #aa0028 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #da0436 0%,#c50330 44%,#aa0028 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #da0436 0%,#c50330 44%,#aa0028 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da0436', endColorstr='#aa0028',GradientType=0 ); /* IE6-9 */
+
+}
+
+footer
+{
+  position:absolute;
+  bottom:-10px;
+  right:10px;
+}
+
+footer p
+{
+  color:grey;
+  font-variant:all-little-caps;
 }
