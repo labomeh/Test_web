@@ -7,10 +7,14 @@
 body
 {
   background-image:url("../assets/fond.png");
+  min-height:100%;
+  margin:0;
+  padding:0;
 }
+
 header
 {
-  position:fixed;
+  position:absolute;
   top:0;
   left:0;
   right:0;
@@ -94,8 +98,8 @@ nav ul.menu li:hover
 footer
 {
   position:absolute;
-  bottom:-10px;
-  right:10px;
+  bottom:0;  
+  right:20px;
 }
 
 footer p
