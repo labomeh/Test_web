@@ -50,7 +50,7 @@ nav
   background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
-  border-top:ridge black 2px;
+  border-top:ridge black 3px;
   border-bottom:ridge black 2px;
 }
 
@@ -65,7 +65,7 @@ nav ul.menu li
 {
   display:inline;
   padding:0 4px 15px 4px;
-  border:ridge black 2px;
+  border:ridge black 3px;
   border-radius:0 0 90px 90px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c40431+0,b1032c+44,9a0024+100 */
   background: #c40431; /* Old browsers */
