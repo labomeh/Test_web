@@ -100,6 +100,7 @@ footer
 
 footer p
 {
-  color:grey;
-  font-variant:all-little-caps;
+  color:#333333;
+  font-variant:all-small-caps;
+  font-size:10pt;
 }
