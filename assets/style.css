@@ -27,6 +27,14 @@ header
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
 }
 
+#logo
+{
+  float:left;
+  height:33px;
+  margin-top:3px;
+  margin-left:7px;
+}
+
 header h1
 {
   text-align:center;
@@ -64,9 +72,10 @@ nav ul.menu
 nav ul.menu li
 {
   display:inline;
-  padding:0 4px 15px 4px;
+  padding:0 4px 5px 4px;
+  border-radius:0 0 10px 10px;
   border:ridge black 3px;
-  border-radius:0 0 90px 90px;
+  border-top: 0;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c40431+0,b1032c+44,9a0024+100 */
   background: #c40431; /* Old browsers */
   background: -moz-linear-gradient(top,  #c40431 0%, #b1032c 44%, #9a0024 100%); /* FF3.6-15 */
@@ -81,11 +90,10 @@ nav ul.menu li a:link,nav ul.menu a:visited
   text-decoration:none;
   font-variant:all-small-caps;
   padding:0 4px 20px 4px;
-  border-radius:0 0 90px 90px;
 }
 nav ul.menu li:hover
 {
-  padding-bottom:20px;
+  padding-bottom:10px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#da0436+0,c50330+44,aa0028+100 */
   background: #da0436; /* Old browsers */
   background: -moz-linear-gradient(top,  #da0436 0%, #c50330 44%, #aa0028 100%); /* FF3.6-15 */
