@@ -58,8 +58,8 @@ nav
   background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
-  border-top:ridge black 3px;
-  border-bottom:ridge black 2px;
+  border-top:solid black 3px;
+  border-bottom:solid black 2px;
 }
 
 nav ul.menu
@@ -74,7 +74,7 @@ nav ul.menu li
   display:inline;
   padding:0 4px 5px 4px;
   border-radius:0 0 10px 10px;
-  border:ridge black 3px;
+  border:solid black 3px;
   border-top: 0;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c40431+0,b1032c+44,9a0024+100 */
   background: #c40431; /* Old browsers */
@@ -89,7 +89,7 @@ nav ul.menu li a:link,nav ul.menu a:visited
   color:black;
   text-decoration:none;
   font-variant:all-small-caps;
-  padding:0 4px 20px 4px;
+  padding:0 4px 15px 4px;
 }
 nav ul.menu li:hover
 {
@@ -101,6 +101,17 @@ nav ul.menu li:hover
   background: linear-gradient(to bottom,  #da0436 0%,#c50330 44%,#aa0028 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da0436', endColorstr='#aa0028',GradientType=0 ); /* IE6-9 */
 
+}
+
+#corps
+{
+  width:70vw;
+  margin-top:60px;
+  margin-right:auto;
+  margin-left:auto;
+  background-color:white;
+  padding-top:1px;
+  
 }
 
 footer
