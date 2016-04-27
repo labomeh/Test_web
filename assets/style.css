@@ -105,20 +105,39 @@ nav ul.menu li:hover
 
 #corps
 {
-  width:70vw;
-  margin-top:60px;
+  width:95vw;
+  margin-top:80px;
   margin-right:auto;
   margin-left:auto;
+  min-height:80vh;
+}
+
+#corps table
+{
+  border-spacing:10px;
+  margin-right:auto;
+  margin-left:auto;
+  border-spacing:10px;
+}
+
+#corps table article
+{
   background-color:white;
-  padding-top:1px;
-  
+  border:solid black 2px;
+  border-radius:10px;
+  padding:10px;
+}
+
+#corps table article h2
+{
+  margin-top:0;
 }
 
 footer
 {
-  position:absolute;
-  bottom:0;  
-  right:20px;
+  float:right;
+  position:relative;
+  right:10px;
 }
 
 footer p
