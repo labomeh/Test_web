@@ -7,9 +7,6 @@
 body
 {
   background-image:url("../assets/fond.png");
-  min-height:100%;
-  margin:0;
-  padding:0;
 }
 
 header
@@ -41,7 +38,6 @@ header h1
   position:relative;
   color: black;
   top:-22px;
-  color:;
   font-family: batman;
 }
 
@@ -100,12 +96,11 @@ nav ul.menu li:hover
   background: -webkit-linear-gradient(top,  #da0436 0%,#c50330 44%,#aa0028 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #da0436 0%,#c50330 44%,#aa0028 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da0436', endColorstr='#aa0028',GradientType=0 ); /* IE6-9 */
-
 }
 
 #corps
 {
-  width:95vw;
+  width:96vw;
   margin-top:80px;
   margin-right:auto;
   margin-left:auto;
@@ -114,16 +109,21 @@ nav ul.menu li:hover
 
 #corps table
 {
-  border-spacing:10px;
+  border-spacing:1vw;
   margin-right:auto;
   margin-left:auto;
-  border-spacing:10px;
 }
 
-#corps table article
+#corps td
 {
-  background-color:white;
-  border:solid black 2px;
+  
+}
+
+#corps table td
+{
+  background-color:rgba(255,255,255,0.7);
+  border-top:solid white 3px;
+  border-bottom:solid white 3px;
   border-radius:10px;
   padding:10px;
 }
@@ -131,6 +131,22 @@ nav ul.menu li:hover
 #corps table article h2
 {
   margin-top:0;
+  font-family:batman;
+  color:black;
+  text-align:center;
+  background-color:grey;
+  border-radius:90px;
+  text-shadow:5px;
+}
+
+#corps table article p
+{
+  font-family:calibri;
+}
+
+#corps table td>img
+{
+  
 }
 
 footer
