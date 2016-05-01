@@ -114,11 +114,6 @@ nav ul.menu li:hover
   margin-left:auto;
 }
 
-#corps td
-{
-  
-}
-
 #corps table td
 {
   background-color:rgba(255,255,255,0.7);
@@ -136,7 +131,8 @@ nav ul.menu li:hover
   text-align:center;
   background-color:grey;
   border-radius:90px;
-  text-shadow:5px;
+  border-top:solid 3px lightgrey;
+  border-bottom:solid 3px lightgrey;
 }
 
 #corps table article p
@@ -144,9 +140,14 @@ nav ul.menu li:hover
   font-family:calibri;
 }
 
-#corps table td>img
+#corps table article cite
 {
-  
+  font-family:fantasy;
+}
+
+#corps table article cite::before,#corps table article cite::after
+{
+  content:" \" ";
 }
 
 footer
